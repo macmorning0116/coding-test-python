@@ -11,3 +11,5 @@ for _ in range(n):
     result.append(arr.pop(num))
 
 print("<" + ", ".join(map(str,result)) + ">")
+
+
