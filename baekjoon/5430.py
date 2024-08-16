@@ -16,8 +16,7 @@ for _ in range(T):
     rev = 0
     flag = True
 
-    instLen = len(insts)
-    for idx,inst in enumerate(insts):
+    for inst in insts:
         if inst == "R":
             rev +=1 
         elif inst == "D":
