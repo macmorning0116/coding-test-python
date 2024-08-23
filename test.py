@@ -1,9 +1,6 @@
-from collections import*
+test = ((0, 1), (3, 0))
 
-test = deque([1,2,3,4,5,6,7])
-
-test.rotate(-2)
-
-print(test)
-
-
+for i in test:
+    a,b = i
+    print(a)
+    print(b)
